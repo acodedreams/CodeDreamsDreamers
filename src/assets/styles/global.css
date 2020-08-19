@@ -1,0 +1,45 @@
+:root {
+  --color-background: #121214;
+  --color-actioncall: #FFFFFF;
+  --color-text-light: #E5E5E5;
+  --color-placeholder: #6C6C6C;
+  --color-primary: #09CE91;
+  --color-primary-hover: #84E6C8;
+  --color-background-input: #211F25;;
+  --color-discord: #7189DA;;
+  --color-blue: #164894;
+
+  font-size: 60%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root{
+  height: 100vh;
+}
+
+body{
+  background: var(--color-background);
+}
+
+body,
+input,
+button,
+textarea{
+  font: 500 1.6rem Montserrat;
+}
+
+.container{
+  width: 90vw;
+  max-width: 1100px;
+}
+
+@media(min-width: 700px){
+  :root{
+    font-size: 62.5%;
+  }
+}
